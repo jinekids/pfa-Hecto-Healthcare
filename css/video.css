@@ -1,0 +1,73 @@
+section#video{
+  padding-bottom: 220px;
+}
+section#video .wrap{
+  /*! justify-content: center; */
+}
+section#video .wrap h2{
+  font-size: 90px;
+  font-weight: 900;
+  color: #f1f1f1;
+  transform: translateX(70px) translateY(-60px) rotate(90deg);
+  transform-origin: 0 0;
+  letter-spacing: -0.0166em;
+  position: absolute;
+}
+
+section#video .wrap .vdiv{
+
+  position: relative;
+}
+
+section#video .wrap .vdiv video{
+  width: 1320px;
+  border-radius: 0 0 144px 0;
+}
+section#video .wrap .vdiv a{
+  width: 155px;
+  height: 155px;
+  position: absolute;
+  right: 23px;
+  bottom: -15px;
+  border-radius: 50%;
+  border-bottom-left-radius: 0;
+  /*! position: relative; */
+}
+section#video .wrap .vdiv a::before{
+  content: "";
+  width: 221px;
+  height: 221px;
+  display: inline-block;
+  border: 1px solid rgba(250,166,26,0.35);
+  border-radius: 50%;
+  border-bottom-left-radius: 0;
+  position: absolute;
+  right: -34px;
+  bottom: -35px;
+  z-index: -1;
+}
+section#video .wrap .vdiv a span{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+position: relative;
+}
+section#video .wrap .vdiv a span::before{
+  content: "";
+  background-image: url(../img/video.svg);
+  width: 36px;
+  height: 41px;
+  display: inline-block;
+  margin-bottom: 5px;
+/*   position: absolute; */
+}
+section#video .wrap .vdiv a span p{
+  color: white;
+  text-align: center;
+  width: 100%;
+  font-weight: 700;
+  font-size: 13px;
+}

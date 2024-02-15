@@ -1,0 +1,78 @@
+section#product {
+  padding: 316px 0px 173px 0px;
+}
+section#product .wrap {
+  
+  width: 1520px;
+}
+section#product .wrap .proinfo {
+  
+}
+section#product .wrap .proinfo hgroup {
+  
+}
+section#product .wrap .proinfo hgroup h2 {
+  
+  font-size: 20px;
+}
+section#product .wrap .proinfo hgroup h3 {
+  
+}
+section#product .wrap .proinfo hgroup h3 strong {
+  
+  display: block;
+  font-size: 76px;
+  letter-spacing: -0.025em;
+  line-height: 1.13;
+  margin-top: 14px;
+  overflow: hidden;
+}
+section#product .wrap .proinfo p {
+  margin-top: 37px;
+  color: #888;
+  line-height: 1.5;
+  letter-spacing: -0.035em;
+}
+section#product .wrap .proinfo {
+  
+}
+section#product .wrap .proinfo ul {
+  width: 455px;
+  height: 135px;
+  padding-top: 100px;
+}
+section#product .wrap .proinfo ul li {
+  width: 135px;
+  height: 135px;
+  margin-left: 20px;
+  position: relative;
+  display: flex;
+  cursor: pointer;
+}
+section#product .wrap .proinfo ul li:nth-child(1) {
+  margin-left: 0px;
+}
+section#product .wrap .proinfo ul li::before{
+  content: "";
+  width: 135px;
+  height: 135px;
+  background-color: orange;
+  display: inline-block;
+  position: absolute;
+  z-index: -1;
+  border-radius: 50% 50% 50% 0;
+}
+section#product .wrap .proinfo ul li img {
+  
+  margin: auto auto;
+}
+section#product .wrap .proimg{
+  
+  width: 826px;
+  height: 506px;
+}
+section#product .wrap .proimg img {
+  
+  width: 826px;
+  height: 506px;
+}

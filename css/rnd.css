@@ -1,0 +1,84 @@
+section#rnd{
+  position: relative;
+  padding-bottom: 270px;
+}
+section#rnd::before{
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/bgimg.jpg);
+  display: block;
+  position: absolute;
+  z-index: -1;
+}
+section#rnd .wrap{
+
+}
+section#rnd .wrap .subwrap{
+  margin: 0 auto;
+}
+
+section#rnd .wrap .subwrap .Careers{
+  margin: 11.02% 20px 0 0;
+  width: 639px;
+  height: 639px;
+}
+section#rnd .wrap .subwrap .Careers a{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/careersimg.jpg);
+  border-radius: 0 0 100px 0;
+  position: relative;
+}
+section#rnd .wrap .subwrap .Careers a h2{
+  letter-spacing:0.0075em;
+}
+section#rnd .wrap .subwrap .Careers a h3{
+  margin-top: 0.5em;
+  font-weight: 700;
+  font-size: 3.375em;
+}
+section#rnd .wrap .subwrap .Careers a p{
+  font-size: 20px;
+  color: rgba(0,0,0,0.6);
+/* letter-spacing: -0.0175em; */
+  line-height: 1.5;
+  margin-top: 27px;
+}
+
+section#rnd .wrap .subwrap .RnD{
+  margin: 0 0 0 20px;
+  width: 639px;
+  height: 639px;
+}
+section#rnd .wrap .subwrap .RnD a{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/rndimg.jpg);
+  border-radius: 0 0 100px 0;
+  position: relative;
+}
+section#rnd .wrap .subwrap .RnD a h2{
+
+}
+section#rnd .wrap .subwrap .RnD a h3{
+  margin-top: 0.5em;
+  font-weight: 700;
+  font-size: 3.375em;
+}
+section#rnd .wrap .subwrap .RnD a p{
+  font-size: 20px;
+  color: rgba(0,0,0,0.6);
+/*   letter-spacing: -0.0175em; */
+  line-height: 1.5;
+  margin-top: 27px;
+}
+
+section#rnd .wrap .subwrap a .textbox{
+  position: absolute;
+  top: 70px;
+  left: 70px;
+}
+

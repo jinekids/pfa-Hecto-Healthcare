@@ -1,0 +1,82 @@
+#title {
+  height: 100vh; 
+  /*! max-width: 1520px; */
+  margin: 0 auto;
+  border-radius: 0 0 0 200px;
+  min-height: 600px;
+  /*  창이 줄어들어도 최소 600 이하로는 줄어들지 않게  */
+  background-image:url(../img/main01.jpg);
+  background-repeat: no-repeat;
+  background-position-y: 75%, 103%;
+  background-position-x: 77%, center;
+  /*  이미지 순서대로 위치 지정  */
+  /*! position: relative; */
+  width: 100%;
+}
+
+#title .wrap {
+  height: 100%;
+}
+#title .wrap h2.h1 {
+  font-weight: bold;
+  line-height: 2;
+  font-size: 80px;
+}
+#title .wrap h2.h1 strong {
+  color: orange;
+}
+#title .wrap p.p {
+  font-size: 25px;
+}
+#title .wrap p.p strong{
+
+}
+
+/* --------  화살표 버튼 부분  --------  */
+#title .wrap .arrow{
+  padding-top: 10px;
+}
+#title .wrap .arrow button:nth-child(1){
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  display: block;
+  border-radius: 50px 0 50px 50px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  margin-top: 30px;
+}
+#title .wrap .arrow button:nth-child(1)::after{
+  content: "";
+  width: 80px;
+  height: 80px;
+  background-image: url(../img/left.svg);
+  display: block;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 36px 36px;
+}
+#title .wrap .arrow button:nth-child(2){
+  width: 80px;
+  height: 80px;
+  /* background-color: orange; */
+  display: block;
+  border-radius: 50px 50px 50px 0;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+#title .wrap .arrow button:nth-child(2)::after{
+  content: "";
+  width: 80px;
+  height: 80px;
+  background-image: url(../img/right.svg);
+  display: block;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 36px 36px;
+}

@@ -1,0 +1,45 @@
+header {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+header div.wrap {
+  align-items: center;
+  /* justify-content: space-between; */
+  margin: 0px auto;
+  padding: 0 100px;
+  max-width: 1720px;
+  width: 100%;
+}
+header div.wrap h1 {
+  
+}
+header div.wrap h1.h1 a {
+  font-size: 0;
+  width: 154px;
+  height: 41px;
+  display: block;
+  background-image: url(../img/logo.png);
+}
+header div.wrap h1.h1 a::after{
+
+}
+header div.wrap ul {
+}
+header div.wrap ul li {
+  font-size: 20px;
+}
+header div.wrap ul li a {
+  padding: 0 35px;
+}
+header div.wrap ul li a:hover {
+  color: orange;
+}
+
+header div.wrap div.right > a.ham {
+  font-size: 0px;
+  width: 35px;
+  height: 7px;
+  border-top: 2px solid #333;
+  border-bottom: 2px solid #333;
+}
